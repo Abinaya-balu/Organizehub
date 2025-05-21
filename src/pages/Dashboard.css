@@ -1,0 +1,54 @@
+.dashboard {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.stats-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.pending {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.overdue {
+  background-color: #c0392b;
+  color: #fff;
+}
+
+.upcoming-tasks {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.upcoming-tasks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.upcoming-tasks li {
+  padding: 8px;
+  border-bottom: 1px solid #bdc3c7;
+}

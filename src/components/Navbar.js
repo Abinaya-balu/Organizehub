@@ -5,7 +5,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">Task Manager</div>
+      <div className="logo">OrganizeHub</div>
       <ul className="nav-links">
         <li><NavLink to="/" exact="true" className={({ isActive }) => isActive ? "active" : ""}>Dashboard</NavLink></li>
         <li><NavLink to="/taskmanager" className={({ isActive }) => isActive ? "active" : ""}>Task Manager</NavLink></li>

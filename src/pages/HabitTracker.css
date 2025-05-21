@@ -1,0 +1,51 @@
+.habit-tracker {
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.habit-input input, .habit-input select {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.habit-input button {
+  padding: 8px 12px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.habit-input button:hover {
+  background-color: #219653;
+}
+
+.habit-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.habit-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf0f1;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.habit-item button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.habit-item button:hover {
+  background-color: #2980b9;
+}

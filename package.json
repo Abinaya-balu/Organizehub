@@ -4,6 +4,7 @@
   "description": "Git Flow Demo Project",
   "scripts": {
     "start": "react-scripts start",
+    "homepage": "https://abinaya-balu.github.io/Organizehub/",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
